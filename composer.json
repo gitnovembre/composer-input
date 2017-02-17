@@ -1,5 +1,5 @@
 {
-    "name": "novembre/express-input",
+    "name": "novembre/composer-input",
     "description": "Build HTML inputs for Wordpress ExPress Theme.",
     "keywords": ["input", "express", "package"],
     "license": "DBAD",
@@ -15,12 +15,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Novembre\\": "src/"
+            "Novembre\\Input\\": "src/"
         }
     },
     "homepage": "https://github.com/gitnovembre/composer-input",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/gitnovembre/composer-input" }
+        {
+            "type": "vcs",
+            "url": "https://github.com/gitnovembre/composer-input",
+            "options": {
+                "ssh2": {
+                    "username": "git-novembre",
+                    "pubkey_file": "~/.ssh/id_rsa.pub",
+                    "privkey_file": "~/.ssh/id_rsa"
+                }
+            }
+        }
     ],
     "require-all": true
 }

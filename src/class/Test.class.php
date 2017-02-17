@@ -1,4 +1,4 @@
-<?php namespace Novembre;
+<?php namespace Novembre\Input;
 /**
 *  A sample class
 *
