@@ -8,7 +8,7 @@
 *  @author Djb
 */
 
-class Inputfactory
+class InputFactory
 {
 	private static $input;
 
