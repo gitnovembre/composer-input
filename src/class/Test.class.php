@@ -16,3 +16,13 @@ class Test
         echo '</pre>';
     }
 }
+
+class Input
+{
+    public function debug( $data )
+    {
+        echo '<pre>';
+        var_dump($data);
+        echo '</pre>';
+    }
+}
