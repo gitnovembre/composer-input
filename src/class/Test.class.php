@@ -9,15 +9,6 @@ namespace Novembre\Input;
 *
 *  @author Djb
 */
-class Test
-{
-    public function debug( $data )
-    {
-        echo '<pre>';
-        var_dump($data);
-        echo '</pre>';
-    }
-}
 
 class Input
 {
