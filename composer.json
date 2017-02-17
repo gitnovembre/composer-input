@@ -16,8 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Novembre\\Input\\": "src/"
+            "Novembre\\Input": "src/class/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
