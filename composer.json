@@ -11,29 +11,14 @@
             "role": "Developer"
         }
     ],
-    "type": "library",
+    "type": "composer-plugin",
     "require": {
-        "php": ">=5.4",
-        "novembre/composer-input": "dev-master"
+        "php": ">=5.4"
     },
     "autoload": {
         "psr-4": {
             "Novembre\\Input\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/gitnovembre/composer-input",
-            "options": {
-                "ssh2": {
-                    "username": "beejeridou@gmail.com",
-                    "pubkey_file": "~/.ssh/id_rsa.pub",
-                    "privkey_file": "~/.ssh/id_rsa"
-                }
-            }
-        }
-    ],
-    "minimum-stability": "dev",
-    "require-all": true
+    "minimum-stability": "dev"
 }
