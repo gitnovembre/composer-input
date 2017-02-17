@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Novembre\\Input\\": ["src/", "src/class/", "composer-input/src/", "composer-input/src/class/"]
+            "Novembre\\Input\\": ["src/", "src/class/", "novembre/composer-input/src/", "novembre/composer-input/src/class/"]
         }
     }
 }
