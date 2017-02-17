@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Novembre\\Input\\": "src/class/"
+            "Novembre\\Input\\": "src/"
         }
     }
 }
