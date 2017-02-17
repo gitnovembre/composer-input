@@ -1,6 +1,6 @@
 <?php
 
-namespace Novembre;
+namespace Novembre\Input\Class;
 /**
 *  A sample class
 *
