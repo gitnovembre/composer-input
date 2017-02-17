@@ -1,6 +1,4 @@
-<?php
-
-namespace Novembre;
+<?php namespace Novembre;
 /**
 *  A sample class
 *
