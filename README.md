@@ -18,4 +18,7 @@ Build HTML inputs for Wordpress ExPress Theme.
         }
     }
 ],
-"minimum-stability": "dev"```
+"minimum-stability": "dev"
+
+```
+
