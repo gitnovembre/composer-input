@@ -1,4 +1,6 @@
 <?php
+use Novembre\Input\Input;
+
 class Text extends Input
 {
 	public function __construct($type, $name="")
