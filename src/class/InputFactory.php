@@ -1,4 +1,7 @@
 <?php namespace Novembre\Input;
+
+use Novembre\Input\Text;
+use Novembre\Input\Textarea;
 /**
 *  A sample class
 *
