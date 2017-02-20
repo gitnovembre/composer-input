@@ -1,6 +1,4 @@
 <?php namespace Novembre\Input;
-
-use Novembre\Input\Text;
 /**
 *  A sample class
 *

@@ -1,4 +1,5 @@
-<?php
+<?php namespace Novembre\Input;
+
 class Input
 {
 	public $attributes = "";
