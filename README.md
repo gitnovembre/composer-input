@@ -1,6 +1,6 @@
 # composer-input
 Build HTML inputs for Wordpress ExPress Theme.
-
+```
 #add this lines on composer.json file
 "require": {
     "novembre/input": "dev-master"
@@ -18,4 +18,4 @@ Build HTML inputs for Wordpress ExPress Theme.
         }
     }
 ],
-"minimum-stability": "dev"
+"minimum-stability": "dev"```
