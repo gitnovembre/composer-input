@@ -2,14 +2,10 @@
 
 use Novembre\Input\Text;
 use Novembre\Input\Textarea;
-/**
-*  A sample class
-*
-*  Use this section to define what this class is doing, the PHPDocumentator will use this
-*  to automatically generate an API documentation using this information.
-*
-*  @author Djb
-*/
+use Novembre\Input\Select;
+use Novembre\Input\Radio;
+use Novembre\Input\Checkbox;
+use Novembre\Input\File;
 
 class InputFactory
 {
@@ -24,7 +20,7 @@ class InputFactory
 			break;
 
 			default:
-				$class_name = ucfirst($type);
+				$class_name = "Novembre\\Input\\".ucfirst($type);
 				return self::$input = new $class_name($name);
 			break;
 
