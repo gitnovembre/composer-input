@@ -23,6 +23,7 @@ Build HTML inputs for Wordpress ExPress Theme.
 ```
 
 Example php Input generation
+Views are based on Twitter Bootstrap 3 HTML templates (default theme)
 ```
 <?php
 use Novembre\Input\Inputfactory;
