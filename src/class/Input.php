@@ -10,6 +10,7 @@ class Input
 	public $input_value;
 	public $text_help;
 	public $addon;
+
 	public function template($template)
 	{
 		$this->template = $template;
@@ -67,7 +68,7 @@ class Input
 		$this->id = $this->slugify($this->name);
 		ob_start();
 			set_query_var( "input", $this );
-			get_template_part(PATH_VIEWS_FORMS . '/' . strtolower(get_called_class()), $this->template);
+			get_template_part(__DIR__.'/../views/' . strtolower(get_called_class()), $this->template);
 		$input = ob_get_contents(); ob_end_clean();
 		set_query_var( "input", "" );
 		return $input;

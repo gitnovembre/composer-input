@@ -1,4 +1,5 @@
 <?php namespace Novembre\Input;
+
 use Novembre\Input\Input;
 
 class Text extends Input
