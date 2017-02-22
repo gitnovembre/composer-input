@@ -1,7 +1,7 @@
 {
     "name": "novembre/input",
     "description": "Build HTML inputs.",
-    "keywords": ["Novembre Communication", "Input"],
+    "keywords": ["Novembre Communication", "Input builder", "HTML", "Simply Input"],
     "license": "MIT",
     "authors": [
         {
