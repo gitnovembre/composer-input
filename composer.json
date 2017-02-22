@@ -1,6 +1,6 @@
 {
     "name": "novembre/input",
-    "description": "Build HTML inputs for Wordpress ExPress Theme.",
+    "description": "Build HTML inputs.",
     "keywords": ["Novembre Communication", "ExPress", "Input"],
     "license": "MIT",
     "authors": [
