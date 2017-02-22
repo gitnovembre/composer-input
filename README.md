@@ -1,5 +1,5 @@
 # composer-input
-Build HTML inputs for Wordpress ExPress Theme.
+Build HTML inputs.
 ```
 #add this lines on composer.json file
 "require": {
