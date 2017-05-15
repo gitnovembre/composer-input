@@ -10,6 +10,7 @@ class Input
 	public $input_value;
 	public $text_help;
 	public $addon;
+	public $view = "";
 
 	public function template($template)
 	{
@@ -59,10 +60,18 @@ class Input
 		$this->addon = $addon;
 		return $this;
 	}
+
 	public function html()
 	{
 		return $this->build();
 	}
+
+	public function view($view)
+	{
+		$this->view = $view;
+		return $this;
+	}
+
 	public function build()
 	{
         $get_called_class = end(explode('\\', get_called_class()));
@@ -70,7 +79,13 @@ class Input
 		$this->id = $this->slugify($this->name);
 		ob_start();
             $input = $this;
-            require __DIR__.'/../views/' . strtolower($get_called_class).'-'.$this->template.'.php';
+
+			if($this->view == ''):
+				require __DIR__.'/../views/' . strtolower($get_called_class).'-'.$this->template.'.php';
+			else :
+				require get_template_directory() . $this->view.'.php';
+			endif;
+			
 		$input = ob_get_contents(); ob_end_clean();
 
 		return $input;
