@@ -42,10 +42,8 @@ echo $select = Inputfactory::load('select', 'monSelect')
     ->html();
 
 echo $input = Inputfactory::load('file', 'monFile')
-    // ->template('plupload')
     ->label("Fichier :")
     ->help("Image uniquement")
     ->multiple()
-    // ->required()
     ->html();
 ?>
